@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HiperAPI.Application\HiperAPI.Application.csproj" />
+    <ProjectReference Include="..\HiperAPI.Domain.Services\HiperAPI.Domain.Services.csproj" />
+    <ProjectReference Include="..\HiperAPI.Infrastructure.CrossCutting.Adapter\HiperAPI.Infrastructure.CrossCutting.Adapter.csproj" />
+    <ProjectReference Include="..\HiperAPI.Infrastructure.Repository\HiperAPI.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

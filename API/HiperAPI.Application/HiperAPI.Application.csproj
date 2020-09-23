@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HiperAPI.Application.DTO\HiperAPI.Application.DTO.csproj" />
+    <ProjectReference Include="..\HiperAPI.Domain.Core\HiperAPI.Domain.Core.csproj" />
+    <ProjectReference Include="..\HiperAPI.Infrastructure.CrossCutting.Adapter\HiperAPI.Infrastructure.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>
