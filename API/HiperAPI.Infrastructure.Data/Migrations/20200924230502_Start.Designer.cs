@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HiperAPI.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20200923123413_Start")]
+    [Migration("20200924230502_Start")]
     partial class Start
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,6 +27,10 @@ namespace HiperAPI.Infrastructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("ClientBDId")
+                        .IsRequired()
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()

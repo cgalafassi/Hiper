@@ -40,7 +40,7 @@ namespace HiperAPI.Infrastructure.CrossCutting.Adapter.Mappers
         {
             return new ProductDTO()
             {
-                Id = product.Id,
+                Id = product.ClientBDId,
                 Name = product.Name,
                 Value = product.Value,
                 Quantity = product.Quantity
@@ -51,7 +51,7 @@ namespace HiperAPI.Infrastructure.CrossCutting.Adapter.Mappers
         {
             return new Product()
             {
-                Id = productDTO.Id,
+                ClientBDId = productDTO.Id,
                 Name = productDTO.Name,
                 Value = productDTO.Value,
                 Quantity = productDTO.Quantity
@@ -62,6 +62,7 @@ namespace HiperAPI.Infrastructure.CrossCutting.Adapter.Mappers
         {
             return new Product()
             {
+                ClientBDId = productDTO.Id,
                 Name = productDTO.Name,
                 Value = productDTO.Value,
                 Quantity = productDTO.Quantity

@@ -17,12 +17,22 @@ namespace HiperAPI.Domain.Services
 
         public override Product GetById(int id)
         {
-            Product product = base.GetById(id);
+            Product product = _repositoryProduct.GetById(id);
             if (product == null)
             {
                 throw new ProductNotFoundException();
             }
             return product;
+        }
+
+        public override void Update(Product obj)
+        {
+            Product product = _repositoryProduct.GetById((int)obj.ClientBDId);
+            product.Name = obj.Name;
+            product.Value = obj.Value;
+            product.Quantity = obj.Quantity;
+
+            base.Update(product);
         }
     }
 }

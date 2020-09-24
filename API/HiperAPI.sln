@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperAPI", "HiperAPI\HiperA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{17E9F7B4-87CC-4626-B369-05CCA7BE5EEC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Apllication", "2-Apllication", "{EBC023CA-4B21-4B42-AC93-96FFF59A805C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{EBC023CA-4B21-4B42-AC93-96FFF59A805C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{FD1326CB-48A3-4286-80AA-AB6CF514151C}"
 EndProject
@@ -31,9 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperAPI.Infrastructure.Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperAPI.Infrastructure.Repository", "HiperAPI.Infrastructure.Repository\HiperAPI.Infrastructure.Repository.csproj", "{B53071E5-2BFD-4FE2-BD7C-AEAA0D8BA144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiperAPI.Infrastructure.CrossCutting.Adapter", "HiperAPI.Infrastructure.CrossCutting.Adapter\HiperAPI.Infrastructure.CrossCutting.Adapter.csproj", "{BC6940EE-C61A-4285-B4B2-BBA6ACB44B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperAPI.Infrastructure.CrossCutting.Adapter", "HiperAPI.Infrastructure.CrossCutting.Adapter\HiperAPI.Infrastructure.CrossCutting.Adapter.csproj", "{BC6940EE-C61A-4285-B4B2-BBA6ACB44B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiperAPI.Infrastructure.CrossCutting.IoC", "HiperAPI.Infrastructure.CrossCutting.IoC\HiperAPI.Infrastructure.CrossCutting.IoC.csproj", "{A0452436-16DF-45FC-9797-A441D619BE45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperAPI.Infrastructure.CrossCutting.IoC", "HiperAPI.Infrastructure.CrossCutting.IoC\HiperAPI.Infrastructure.CrossCutting.IoC.csproj", "{A0452436-16DF-45FC-9797-A441D619BE45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

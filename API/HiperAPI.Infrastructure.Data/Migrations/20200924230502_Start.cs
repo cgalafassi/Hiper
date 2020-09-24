@@ -12,6 +12,7 @@ namespace HiperAPI.Infrastructure.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    ClientBDId = table.Column<int>(nullable: false),
                     Name = table.Column<string>(nullable: false),
                     Value = table.Column<double>(nullable: false),
                     Quantity = table.Column<int>(nullable: false)

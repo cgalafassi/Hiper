@@ -14,6 +14,7 @@ using Microsoft.OpenApi.Models;
 
 using Swashbuckle.AspNetCore.SwaggerGen;
 
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
@@ -41,7 +42,7 @@ namespace HiperAPI
                 {
                     if (!apiDesc.TryGetMethodInfo(out MethodInfo methodInfo)) return false;
 
-                    var versions = methodInfo.DeclaringType
+                    IEnumerable<ApiVersion> versions = methodInfo.DeclaringType
                         .GetCustomAttributes(true)
                         .OfType<ApiVersionAttribute>()
                         .SelectMany(attr => attr.Versions);
@@ -85,9 +86,9 @@ namespace HiperAPI
                 endpoints.MapControllers();
             });
 
-            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            using (IServiceScope serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
             {
-                var context = serviceScope.ServiceProvider.GetRequiredService<SqlContext>();
+                SqlContext context = serviceScope.ServiceProvider.GetRequiredService<SqlContext>();
                 context.Database.EnsureCreated();
             }
         }
