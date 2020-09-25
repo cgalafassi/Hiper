@@ -8,4 +8,7 @@ A solução deve ser composta por pelo menos duas partes:
   <li>Uma API que receba esse cadastro e armazene em um banco próprio.</li>
 </ul>
 
+
+<h2> Solução Final </h2>
+
 A solução final é composta por: Aplicação Web, API para sincronia e um Serviço para sincronizar os cadastros e as alterações dos produtos.
