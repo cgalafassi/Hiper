@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperWebApp.Domain.Services
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{A88562FB-ED57-4587-AC9B-AFAD357B6089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiperWebApp.Infrastructure.CrossCutting.IoC", "HiperWebApp.Infrastructure.CrossCutting.IoC\HiperWebApp.Infrastructure.CrossCutting.IoC.csproj", "{BBC38702-0551-49DB-83EA-6E9D331096B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperWebApp.Infrastructure.CrossCutting.IoC", "HiperWebApp.Infrastructure.CrossCutting.IoC\HiperWebApp.Infrastructure.CrossCutting.IoC.csproj", "{BBC38702-0551-49DB-83EA-6E9D331096B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiperWebAppSync", "HiperWebAppSync\HiperWebAppSync.csproj", "{563530B7-8808-46C0-8CAB-0F8B2A85DB61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiperWebAppSync", "HiperWebAppSync\HiperWebAppSync.csproj", "{563530B7-8808-46C0-8CAB-0F8B2A85DB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiperWebApp.Test", "HiperWebApp.Test\HiperWebApp.Test.csproj", "{ABD6C866-8E5C-40AB-BD99-395FE9AE7DEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{563530B7-8808-46C0-8CAB-0F8B2A85DB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563530B7-8808-46C0-8CAB-0F8B2A85DB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563530B7-8808-46C0-8CAB-0F8B2A85DB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD6C866-8E5C-40AB-BD99-395FE9AE7DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD6C866-8E5C-40AB-BD99-395FE9AE7DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD6C866-8E5C-40AB-BD99-395FE9AE7DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD6C866-8E5C-40AB-BD99-395FE9AE7DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

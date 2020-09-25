@@ -1,8 +1,6 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 
-using HiperWebApp.Application.Interfaces;
-using HiperWebApp.Application.Services;
 using HiperWebApp.Application.Services.HttpClients;
 using HiperWebApp.Domain.Core.Interfaces.Repositorys;
 using HiperWebApp.Infra.Data;
