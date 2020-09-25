@@ -1,4 +1,4 @@
-# HiperStore - Desafio Técnico
+# Hiper - Desafio Técnico
 
 <h2> REQUISITOS </h2>
 
