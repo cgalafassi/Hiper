@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HiperWebApp.Application\HiperWebApp.Application.csproj" />
+    <ProjectReference Include="..\HiperWebApp.Domain.Services\HiperWebApp.Domain.Services.csproj" />
+    <ProjectReference Include="..\HiperWebApp.Infra.Repository\HiperWebApp.Infra.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "HiperWebAppSync": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

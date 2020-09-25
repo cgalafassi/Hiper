@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HiperWebApp.Domain.Core\HiperWebApp.Domain.Core.csproj" />
+    <ProjectReference Include="..\HiperWebApp.Domain\HiperWebApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Editar Produto";
+}
+
+<h3>Editar</h3>
+
+<form class="row" role="form" enctype="multipart/form-data" asp-action="Edit" method="post">
+    @Html.Hidden("Id")
+    @{
+        await Html.RenderPartialAsync("~/Views/Shared/Product/_FormsPartial.cshtml", Model);
+    }
+</form>

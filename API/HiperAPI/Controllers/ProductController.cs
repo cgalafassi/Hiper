@@ -74,7 +74,7 @@ namespace HiperAPI.Controllers
         }
 
         // PUT api/<ProductController>/5
-        [HttpPut("{id}")]
+        [HttpPut()]
         [ProducesResponseType(statusCode: 200)]
         [ProducesResponseType(statusCode: 404)]
         [ProducesResponseType(statusCode: 500)]
